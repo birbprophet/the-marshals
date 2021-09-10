@@ -4125,10 +4125,10 @@ table@^6.0.9:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
 
-tailwindcss-plugin-fancy@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/tailwindcss-plugin-fancy/-/tailwindcss-plugin-fancy-3.0.2.tgz#52649867542a035627713b2b22bdec9d1137136a"
-  integrity sha512-tUmrpFMZdZJgVyk+GRTPvKyydHu8F3Qg3QkU/cdBzt8YLha7lFpDDvMRoEZEZ5xB+ncEPpH1RX1HN0CcTrD/hA==
+tailwindcss-plugin-fancy@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-plugin-fancy/-/tailwindcss-plugin-fancy-3.1.0.tgz#572fd0e8974e0536494ee64526def8a27f02e6f2"
+  integrity sha512-5B5B8ESdmjLYPY19cQcKWMwtt3BWPnffAr49iQXWJW8JRAwfoxMQPS84T64xbKWNbwxAyDAJn17HAW0JMf+Y7w==
 
 tailwindcss-safe-area@^0.2.1:
   version "0.2.1"
