@@ -24,8 +24,8 @@ export default function Testimonial() {
               </p>
               <footer className="mt-6">
                 <p className="flex flex-col font-medium">
-                  <span>Caroline Utomo</span>
-                  <span>Project Manager at Runners Planet</span>
+                  <span>Takahito Irie</span>
+                  <span>Chief Creative Officer at Runners Planet</span>
                 </p>
               </footer>
             </blockquote>
