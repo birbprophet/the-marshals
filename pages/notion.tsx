@@ -1,4 +1,5 @@
 import Meta from "@/components/layout/Meta";
+import Promo from "@/components/notion/Promo";
 import Hero from "@/components/notion/Hero";
 import Features from "@/components/notion/Features";
 import Testimonial from "@/components/notion/Testimonial";
@@ -14,6 +15,7 @@ export default function Home() {
         title="The Marshals - Notion - From Head to Toe"
         description="Learn how Notion will empower you to improve your personal and professional lifestyle"
       />
+      <Promo />
       <Hero />
       <Features />
       <Testimonial />
