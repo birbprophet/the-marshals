@@ -45,6 +45,7 @@ const Meta = (props: IMetaProps) => {
           description: props.description ?? appConfig.description,
           locale: appConfig.locale,
           site_name: appConfig.site_name,
+          images: [{ url: "/assets/notion/preview.jpg" }],
         }}
       />
     </>
