@@ -34,7 +34,11 @@ export default function Promo() {
               </p>
             </div>
             <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-              <Link href={promoLink}>
+              <Link
+                href={
+                  "https://www.udemy.com/course/notion-from-head-to-toe/?couponCode=SEPTPROMO"
+                }
+              >
                 <a className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50">
                   Claim your discount now
                 </a>
