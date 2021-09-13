@@ -45,7 +45,7 @@ jobs:
       - name: Clean install dependencies
         run: yarn install --frozen-lockfile
       - name: Cache node modules
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         env:
           cache-name: cache-node-modules
         with:
@@ -57,6 +57,6 @@ jobs:
             ${{ runner.os }}-
       - run: npm ci
       - name: Deploy to Layer0
-        run: npm i -g yarn && yarn layer0:deploy --team=the-marshals --token=$layer0_deploy_token
+        run: npm run layer0:deploy --team=the-marshals --token=$layer0_deploy_token
         env:
           layer0_deploy_token: ${{secrets.layer0_deploy_token}}
