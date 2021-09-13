@@ -13,6 +13,7 @@ const Meta = (props: IMetaProps) => {
     <>
       <Head>
         <meta charSet="UTF-8" key="charset" />
+        <meta name="theme-color" content="#ffffff" />
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1"
