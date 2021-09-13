@@ -12,6 +12,7 @@ const _preLayer0Export = withPWA(
     reactStrictMode: true,
     pwa: {
       dest: "public",
+      publicExcludes: ["!robots.txt"],
     },
   })
 );
