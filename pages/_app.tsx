@@ -1,6 +1,11 @@
 import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
 import appConfig from "@/utils/appConfig";
+import { Metrics } from "@layer0/rum";
+
+new Metrics({
+  token: "ba62f62c-62d1-4a12-b8f5-93a31d3a53d4",
+}).collect();
 
 function MyApp({ Component, pageProps }) {
   return (
