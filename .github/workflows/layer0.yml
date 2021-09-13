@@ -48,6 +48,6 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: yarn
       - name: Deploy to Layer0
-        run: yarn layer0:deploy --team=the-marshals --token=$layer0_deploy_token
+        run: yarn layer0:deploy --team=the-marshals --token=$layer0_deploy_token ${{github.event_name == 'push' && env.BRANCH_NAME == 'main' && '--environment=production' || ''}} ${{github.event_name == 'push' && env.BRANCH_NAME == 'staging' && '--environment=staging' || ''}}
         env:
           layer0_deploy_token: ${{secrets.layer0_deploy_token}}
