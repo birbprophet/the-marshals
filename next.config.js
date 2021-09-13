@@ -17,6 +17,9 @@ const _preLayer0Export = withPWA(
       dest: "public",
       runtimeCaching,
       publicExcludes: ["!robots.txt"],
+      modifyURLPrefix: {
+        "../public": "",
+      },
     },
   })
 );
