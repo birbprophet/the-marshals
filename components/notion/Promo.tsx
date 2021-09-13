@@ -20,14 +20,14 @@ export default function Promo() {
               <p className="ml-3 font-medium text-white truncate">
                 <span className="md:hidden">
                   Get <span className="font-bold">43% off</span> with{" "}
-                  <span className="font-mono text-lg tracking-wide py-1 px-1.5 bg-indigo-500 rounded-lg">
+                  <span className="font-mono text-lg tracking-wide py-1 px-1.5 bg-indigo-600 rounded-lg">
                     SEPTPROMO
                   </span>
                 </span>
                 <span className="hidden md:inline">
                   Limited time launch promo: Get{" "}
                   <span className="font-bold">43% off</span> with{" "}
-                  <span className="font-mono text-lg tracking-wide py-1 px-1.5 bg-indigo-500 rounded-lg">
+                  <span className="font-mono text-lg tracking-wide py-1 px-1.5 bg-indigo-600 rounded-lg">
                     SEPTPROMO
                   </span>
                 </span>
@@ -47,7 +47,7 @@ export default function Promo() {
             <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
               <button
                 type="button"
-                className="-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
+                className="-mr-1 flex p-2 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
                 onClick={() => setBannerShown(false)}
               >
                 <span className="sr-only">Dismiss</span>

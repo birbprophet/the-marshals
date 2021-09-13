@@ -26,14 +26,14 @@ export default function Example() {
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
-                    <dt className="sr-only">Email</dt>
+                    <dt className="sr-only">Discord</dt>
                     <dd>
-                      Join our server{" "}
+                      Join our server:{" "}
                       <a
                         className="font-medium text-indigo-700 hover:text-indigo-800 underline"
                         href="https://discord.gg/27vemuN3BA"
                       >
-                        here
+                        discord.gg/27vemuN3BA
                       </a>
                     </dd>
                   </div>
