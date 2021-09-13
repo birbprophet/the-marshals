@@ -5,14 +5,7 @@ export default function Testimonial() {
     <div className="bg-white py-16 lg:py-24">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-          <div className="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-            <Image
-              src="/assets/notion/runnersplanet.jpg"
-              alt=""
-              className="w-full h-full object-cover"
-              layout="fill"
-            />
-          </div>
+          <div className="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply"></div>
           <div className="relative lg:col-span-1">
             <blockquote className="mt-6 text-white">
               <p className="text-xl font-medium sm:text-2xl">
