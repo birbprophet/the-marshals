@@ -43,7 +43,7 @@ jobs:
         with:
           node-version: 14
       - name: Clean install dependencies
-        run: npx yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
       - name: Cache node modules
         uses: actions/cache@v1
         env:
