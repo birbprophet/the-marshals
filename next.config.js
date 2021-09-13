@@ -22,9 +22,6 @@ module.exports = (phase, config) =>
       // Output sourcemaps so that stack traces have original source filenames and line numbers when tailing
       // the logs in the Layer0 developer console.
       layer0SourceMaps: true,
-      pwa: {
-        dest: "public",
-      },
       ..._preLayer0Export,
     })
   );
