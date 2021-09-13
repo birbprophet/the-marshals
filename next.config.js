@@ -2,6 +2,8 @@
 // You should commit this file to source control.
 const { withLayer0, withServiceWorker } = require("@layer0/next/config");
 const withPWA = require("next-pwa");
+const runtimeCaching = require("next-pwa/cache");
+const isProduction = process.env.NODE_ENV === "production";
 
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
@@ -11,7 +13,9 @@ const _preLayer0Export = withPWA(
   withBundleAnalyzer({
     reactStrictMode: true,
     pwa: {
+      disable: !isProduction,
       dest: "public",
+      runtimeCaching,
       publicExcludes: ["!robots.txt"],
     },
   })
