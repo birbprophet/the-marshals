@@ -42,6 +42,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: yarn
       - name: Deploy to Layer0
         run: yarn layer0:deploy --team=the-marshals --token=$layer0_deploy_token
