@@ -3,7 +3,7 @@
     "layer0:dev": "layer0 dev",
     "layer0:build": "layer0 build",
     "layer0:deploy": "layer0 deploy",
-    "deploy": "layer0 deploy --team=the-marshals",
+    "deploy": "layer0 deploy --team=the-marshals --environment=production",
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
