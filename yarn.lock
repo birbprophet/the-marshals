@@ -1126,10 +1126,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@layer0/core@3.16.10":
-  version "3.16.10"
-  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-3.16.10.tgz#cf2b4bb0260508f38fe8caee4fb0fbd36e910c94"
-  integrity sha512-p0W3E63WDkSNQsfqBkbF98YTKGx6D3AlclzEXVF8RUAXga0ldLhl8/QeIaw/XV9ptlhXhIMbZmf6TW+uD8PCiA==
+"@layer0/core@3.16.11":
+  version "3.16.11"
+  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-3.16.11.tgz#cd29924f684f33791f03868813776011eb507c0a"
+  integrity sha512-kahFJCI/cU2052LowtEAp4ECNBJ6Hk+sSvj2LTIcmLBnV9lyongyNV9IuUmXIYxVejXN4PqBntpuapdlMY/Lgw==
   dependencies:
     "@babel/parser" "^7.13.15"
     "@babel/traverse" "^7.13.15"
@@ -1155,6 +1155,7 @@
     node-fetch "^2.6.1"
     path-to-regexp "^6.2.0"
     pino "^6.11.2"
+    qs "^6.10.1"
     resolve-package-path "^2.0.0"
     shelljs "^0.8.4"
     slash "^3.0.0"
@@ -7107,7 +7108,7 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.9.4:
+qs@^6.10.1, qs@^6.9.4:
   version "6.10.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.1.tgz#4931482fa8d647a5aab799c5271d2133b981fb6a"
   integrity sha512-M528Hph6wsSVOBiYUnGf+K/7w0hNshs/duGsNXPUCLH5XAqjEtiPGwNONLV0tBH8NoGb0mvD5JubnUTrujKDTg==
