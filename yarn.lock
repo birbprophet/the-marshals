@@ -1091,10 +1091,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@layer0/cli@3.16.10":
-  version "3.16.10"
-  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-3.16.10.tgz#20106aa1c640ec651f8538c36e2e0b067e4a57d0"
-  integrity sha512-nQf7KRjU9thsr6AruMktsZE+TGHsRX7ux8SNhzjhVOgjxoY6f0ti6OBx5QdmDJKKAi7HqoTsjoF2ZpdmqHoWfw==
+"@layer0/cli@3.16.11":
+  version "3.16.11"
+  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-3.16.11.tgz#ce041fd39bffe94c13a9ad2e92453e173a131015"
+  integrity sha512-R3PuepISCIyvkySdUv6CGndjdr4oqyCyIoDwgJxyU89LAF9TCmf2Ff9s0RRkqqVs/oUzJAdOzwHuuBB/1eKrVw==
   dependencies:
     axios "^0.21.1"
     chalk "^2.4.2"
