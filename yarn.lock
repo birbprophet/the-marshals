@@ -1190,10 +1190,10 @@
     webpack "^4.0.0"
     webpack-sources "^2.2.0"
 
-"@layer0/prefetch@3.16.10":
-  version "3.16.10"
-  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-3.16.10.tgz#dad8040338a2f2e0f78f087cd32f3f128139e8ad"
-  integrity sha512-ntcjXf7LncsACJYggYFovmHM832OgQLGyEypNOcfeRGJRDHAhPUJ2MtU+eXk/zaHuMsnBHkQ92TJAozgY2dPMg==
+"@layer0/prefetch@3.16.11":
+  version "3.16.11"
+  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-3.16.11.tgz#424b1d090fb111d2b69172098db17d88d92be4c0"
+  integrity sha512-+7Fqn4Xj1w6ojD1zeKRlM9g4v1CK/IkQhB1a4RpEOUuD84jVvWLfDjPoqozXFZuFP83dFdnV5byUxv3CoRN3CA==
   dependencies:
     cheerio "^1.0.0-rc.3"
     json-query "^2.2.2"
