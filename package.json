@@ -33,7 +33,7 @@
     "@layer0/prefetch": "3.16.10",
     "@layer0/react": "3.16.10",
     "@tailwindcss/aspect-ratio": "0.2.1",
-    "@tailwindcss/forms": "0.3.3",
+    "@tailwindcss/forms": "0.3.4",
     "@tailwindcss/line-clamp": "0.2.1",
     "@tailwindcss/typography": "0.4.1",
     "@types/node": "16.6.1",
