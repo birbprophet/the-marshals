@@ -45,7 +45,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "glob-parent": "6.0.1",
-    "postcss": "8.3.6",
+    "postcss": "8.3.8",
     "sharp": "0.29.1",
     "tailwindcss": "2.2.16",
     "tailwindcss-plugin-fancy": "3.1.0",
