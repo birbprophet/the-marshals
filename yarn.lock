@@ -1172,10 +1172,10 @@
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@layer0/next@3.16.10":
-  version "3.16.10"
-  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-3.16.10.tgz#533aaf26953b4b9e5f7bcfadfd9afb4891e9af45"
-  integrity sha512-WRoC5GiQ+3eRXxihE6IT1k1cyh5bSTQGaCv9olPOBpGh9FcK/RzcEJZ+twwontLJKpSr0WNtSrFuJSwJ5zAeIA==
+"@layer0/next@3.16.11":
+  version "3.16.11"
+  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-3.16.11.tgz#87ef6a5561043b40ad08711c7c7b54a88981755e"
+  integrity sha512-Tibdb5V7Ik2b3o/n6PGB2VZn/k68VSwAqZVxwdnSBIGnG6VBGchMGRjfvI6V+mR0pRnbIGS4Sh1CnD5knlPQUw==
   dependencies:
     "@vercel/nft" "^0.13.1"
     chalk "^3.0.0"
