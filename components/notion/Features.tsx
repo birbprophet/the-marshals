@@ -10,7 +10,7 @@ const features = [
   {
     name: "Database Demonstrations",
     description:
-      "It be confusing to apply logic to real-life situations, and hence at the end of major milestones in the video, we included Database Demonstrations to better facilitate our teaching.",
+      "It can be confusing to apply logic to real-life situations, and hence at the end of major milestones in the video, we included Database Demonstrations to better facilitate our teaching.",
     icon: DatabaseIcon,
   },
   {
@@ -35,10 +35,10 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="bg-white overflow-hidden" id="features">
-      <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div className="overflow-hidden bg-white" id="features">
+      <div className="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <svg
-          className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+          className="absolute top-0 transform -translate-x-1/2 left-full -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
           width={404}
           height={784}
           fill="none"
@@ -81,10 +81,10 @@ export default function Features() {
             {features.map((feature) => (
               <div key={feature.name}>
                 <dt>
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
+                  <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                    <feature.icon className="w-6 h-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">
+                  <p className="mt-5 text-lg font-medium leading-6 text-gray-900">
                     {feature.name}
                   </p>
                 </dt>
