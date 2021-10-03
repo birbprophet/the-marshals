@@ -37,7 +37,7 @@
     "@tailwindcss/line-clamp": "0.2.1",
     "@tailwindcss/typography": "0.4.1",
     "@types/node": "16.6.1",
-    "@types/react": "17.0.24",
+    "@types/react": "17.0.27",
     "autoprefixer": "10.3.6",
     "commitizen": "4.2.4",
     "cross-env": "7.0.3",
