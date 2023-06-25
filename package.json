@@ -50,7 +50,7 @@
     "tailwindcss": "2.2.16",
     "tailwindcss-plugin-fancy": "3.1.0",
     "tailwindcss-safe-area": "0.2.1",
-    "typescript": "4.4.3"
+    "typescript": "4.9.5"
   },
   "config": {
     "commitizen": {
