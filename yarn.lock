@@ -1173,19 +1173,22 @@
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@layer0/next@3.16.11":
-  version "3.16.11"
-  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-3.16.11.tgz#87ef6a5561043b40ad08711c7c7b54a88981755e"
-  integrity sha512-Tibdb5V7Ik2b3o/n6PGB2VZn/k68VSwAqZVxwdnSBIGnG6VBGchMGRjfvI6V+mR0pRnbIGS4Sh1CnD5knlPQUw==
+"@layer0/next@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/@layer0/next/-/next-4.20.0.tgz#5f0712da1ba3b2b931e226474cb4e67ca6141cd9"
+  integrity sha512-X9aibtcfIPLFKhf8LRW9LuB6k4Gk4kKWVfCsbctoKv/Gm//VG3tab9/GfIqYOV9Z0NUi5muX2es8s3HNHIed0w==
   dependencies:
     "@vercel/nft" "^0.13.1"
-    chalk "^3.0.0"
+    chalk "^4.1.2"
     cross-spawn "^7.0.3"
     encoding "^0.1.13"
     globby "^11.0.1"
-    jscodeshift "^0.13.0"
+    jscodeshift "^0.13.1"
     next-offline "^5.0.3"
+    ora "^4.0.0"
     qs "^6.9.4"
+    resolve-package-path "^4.0.3"
+    semver "^7.3.5"
     slash "^3.0.0"
     webpack "^4.0.0"
     webpack-sources "^2.2.0"
@@ -2807,11 +2810,6 @@ colorette@^1.3.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
   integrity sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==
-
-colors@^1.1.2:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
-  integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
 combined-stream@^1.0.6:
   version "1.0.8"
@@ -5381,10 +5379,10 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jscodeshift@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/jscodeshift/-/jscodeshift-0.13.0.tgz#4b3835c3755ea86bc4910ac80acd4acd230b53ee"
-  integrity sha512-FNHLuwh7TeI0F4EzNVIRwUSxSqsGWM5nTv596FK4NfBnEEKFpIcyFeG559DMFGHSTIYA5AY4Fqh2cBrJx0EAwg==
+jscodeshift@^0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/jscodeshift/-/jscodeshift-0.13.1.tgz#69bfe51e54c831296380585c6d9e733512aecdef"
+  integrity sha512-lGyiEbGOvmMRKgWk4vf+lUrCWO/8YR8sUR3FKF1Cq5fovjZDlIcw3Hu5ppLHAnEXshVffvaM0eyuY/AbOeYpnQ==
   dependencies:
     "@babel/core" "^7.13.16"
     "@babel/parser" "^7.13.16"
@@ -5396,7 +5394,7 @@ jscodeshift@^0.13.0:
     "@babel/preset-typescript" "^7.13.0"
     "@babel/register" "^7.13.16"
     babel-core "^7.0.0-bridge.0"
-    colors "^1.1.2"
+    chalk "^4.1.2"
     flow-parser "0.*"
     graceful-fs "^4.2.4"
     micromatch "^3.1.10"
@@ -6555,7 +6553,7 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-ora@^4.0.3:
+ora@^4.0.0, ora@^4.0.3:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/ora/-/ora-4.1.1.tgz#566cc0348a15c36f5f0e979612842e02ba9dddbc"
   integrity sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==
@@ -7550,6 +7548,13 @@ resolve-package-path@^2.0.0:
   dependencies:
     path-root "^0.1.1"
     resolve "^1.13.1"
+
+resolve-package-path@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/resolve-package-path/-/resolve-package-path-4.0.3.tgz#31dab6897236ea6613c72b83658d88898a9040aa"
+  integrity sha512-SRpNAPW4kewOaNUt8VPqhJ0UMxawMwzJD8V7m1cJfdSTK9ieZwS6K7Dabsm4bmLFM96Z5Y/UznrpG5kt1im8yA==
+  dependencies:
+    path-root "^0.1.1"
 
 resolve-url@^0.2.1:
   version "0.2.1"
