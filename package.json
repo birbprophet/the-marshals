@@ -31,7 +31,7 @@
     "@layer0/devtools": "3.16.11",
     "@layer0/next": "3.16.11",
     "@layer0/prefetch": "3.16.11",
-    "@layer0/react": "3.16.11",
+    "@layer0/react": "3.21.0",
     "@tailwindcss/aspect-ratio": "0.3.0",
     "@tailwindcss/forms": "0.3.4",
     "@tailwindcss/line-clamp": "0.2.2",

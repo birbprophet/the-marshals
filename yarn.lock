@@ -1204,10 +1204,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/react@3.16.11":
-  version "3.16.11"
-  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-3.16.11.tgz#2e91363c32a32eab45a9be981da4c611d9b8d8be"
-  integrity sha512-k+0EcERBbvuzGdA5gpO2zp389zYsP2vedea5qOM+V0OVkkwiP55YkusIYmqEC3I038CNH1fVLsbYTmMUEb9gEg==
+"@layer0/react@3.21.0":
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-3.21.0.tgz#34e34c90e17541ca7a6d3a349040787c62612e49"
+  integrity sha512-BatW4H7gzXx6lgChJu1EWSwZse6Nci72KByyQn/eMMJtl1stZvbhzxlLFrFa9eVHRi/rOtcXpARo9SzWu+sH3g==
   dependencies:
     react-merge-refs "^1.1.0"
 
