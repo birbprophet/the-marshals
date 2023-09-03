@@ -29,7 +29,7 @@
     "@layer0/cli": "3.16.11",
     "@layer0/core": "3.16.11",
     "@layer0/devtools": "3.16.11",
-    "@layer0/next": "3.16.11",
+    "@layer0/next": "3.21.0",
     "@layer0/prefetch": "3.16.11",
     "@layer0/react": "3.16.11",
     "@tailwindcss/aspect-ratio": "0.3.0",
